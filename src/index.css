@@ -1,0 +1,95 @@
+/* GLOBAL STYLES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f55a5a;
+  height: 3.5em;
+  color: #fff;
+}
+
+header img {
+  width: 1.5em;
+}
+
+header span {
+  font-size: 0.875rem;
+  margin-left: 0.5em;
+  font-weight: 500;
+}
+
+/* SINGLE ENTRY */
+
+.entry-container {
+  display: flex;
+  width: 90%;
+  margin: 2.25rem auto;
+  height: 10.5rem;
+  border-radius: 5px;
+  color: #2b283a;
+}
+
+.photo-container {
+  min-width: 26%;
+}
+
+.entry-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  border-radius: 5px;
+}
+
+.info-container {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.country-and-coords {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.fa-location-dot {
+  color: #f55a5a;
+  font-size: 0.625rem;
+}
+
+.country-and-coords h3 {
+  font-size: 0.625rem;
+  font-weight: 400;
+  margin-left: 0.5em;
+}
+
+.country-and-coords a {
+  margin-left: 0.5em;
+  font-size: 0.625rem;
+  color: #918e9b;
+}
+
+.location-name {
+  font-size: 1.5rem;
+}
+
+.dates {
+  font-size: 0.625rem;
+  font-weight: 900;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 0.625rem;
+  line-height: 1.5;
+}
